@@ -30,7 +30,7 @@ python -m dsse.datasets --config configs/model.json --output data/training
 python -m dsse.datasets --output data/training --verify-only
 ```
 
-In PowerShell, set the import path with `$env:PYTHONPATH = "$PWD/src"` instead of the `export` line. Use a clean Git worktree and an empty output directory for the full run.
+In PowerShell, set the import path with `$env:PYTHONPATH = "$PWD/src"` instead of the `export` line.
 
 The configuration generates 2,048 training, 256 validation, and 512 `sealed_test` trajectories, each with 30 time steps. The generator saves compressed NumPy shards, training-only normalization statistics, topology, bus/PMU mappings, seeds, and checksums. Measurement noise, missingness, and outliers are applied after clean trajectory generation. Their implementations are in [simulation/case_definitions.py](simulation/case_definitions.py), [simulation/corruption_models.py](simulation/corruption_models.py), and [src/dsse/runtime.py](src/dsse/runtime.py). 
 
