@@ -1,0 +1,7076 @@
+{
+  "schema_version": 1,
+  "status": "EXPORTED_FROM_HASH_BOUND_OPENDSS_AND_CACHE",
+  "bus_count": 132,
+  "energized_phase_node_count": 278,
+  "cache_manifest_sha256": "b8179ab5353c0cac6fadba2fc08d8156a04383f39319ebc6886747bca2106b8e",
+  "source_sha256": "4f7a72a20553000f661b9d7144354238b9f931ae3286db09b5eaed543ba13597",
+  "dss_asset_sha256": {
+    "BusCoords.dat": "0b409c0e5d99f365c0140bf38280c1d64932032f1ecb8ef83ae54d4ed0d2716f",
+    "IEEE123Loads.DSS": "fd28f52836205506a1980b52c5a7e12ca585aa626c52a6249502c1c3b2fc2255",
+    "IEEE123Master.dss": "21bfab1a3c956d347dc491436ae839281bf7db4ececc405e10ddeb04d3ab00ec",
+    "IEEE123Regulators.DSS": "cd6ad77980dc018631ce39faab528afce40b0b9a50a6bc1c9ac8049ffb8207d7",
+    "IEEELinecodes.DSS": "4bc8e3a0b24ad7b1cb4321f1c3b6c8458b646dd3a83b3cd11cccc02444624cb2",
+    "LICENSE.opendss.txt": "72e6cb08d3397a969f7763d87ae46bea03f2246a4a996524d0df19285a422560",
+    "upstream_manifest.json": "ba1e6c0dfff0eb6959e1940eae645fd8516b5d92cbe1f3185a3628000a2222b6"
+  },
+  "node_order": [
+    "150.1",
+    "150.2",
+    "150.3",
+    "150r.1",
+    "150r.2",
+    "150r.3",
+    "149.1",
+    "149.2",
+    "149.3",
+    "1.1",
+    "1.2",
+    "1.3",
+    "2.2",
+    "3.3",
+    "7.1",
+    "7.2",
+    "7.3",
+    "4.3",
+    "5.3",
+    "6.3",
+    "8.1",
+    "8.2",
+    "8.3",
+    "12.2",
+    "9.1",
+    "13.1",
+    "13.2",
+    "13.3",
+    "9r.1",
+    "14.1",
+    "34.3",
+    "18.1",
+    "18.2",
+    "18.3",
+    "11.1",
+    "10.1",
+    "15.3",
+    "16.3",
+    "17.3",
+    "19.1",
+    "21.1",
+    "21.2",
+    "21.3",
+    "20.1",
+    "22.2",
+    "23.1",
+    "23.2",
+    "23.3",
+    "24.3",
+    "25.1",
+    "25.2",
+    "25.3",
+    "25r.1",
+    "25r.3",
+    "26.1",
+    "26.3",
+    "28.1",
+    "28.2",
+    "28.3",
+    "27.1",
+    "27.3",
+    "31.3",
+    "33.1",
+    "29.1",
+    "29.2",
+    "29.3",
+    "30.1",
+    "30.2",
+    "30.3",
+    "250.1",
+    "250.2",
+    "250.3",
+    "32.3",
+    "35.1",
+    "35.2",
+    "36.1",
+    "36.2",
+    "35.3",
+    "40.1",
+    "40.2",
+    "40.3",
+    "37.1",
+    "38.2",
+    "39.2",
+    "41.3",
+    "42.1",
+    "42.2",
+    "42.3",
+    "43.2",
+    "44.1",
+    "44.2",
+    "44.3",
+    "45.1",
+    "47.1",
+    "47.2",
+    "47.3",
+    "46.1",
+    "48.1",
+    "48.2",
+    "48.3",
+    "49.1",
+    "49.2",
+    "49.3",
+    "50.1",
+    "50.2",
+    "50.3",
+    "51.1",
+    "51.2",
+    "51.3",
+    "151.1",
+    "151.2",
+    "151.3",
+    "52.1",
+    "52.2",
+    "52.3",
+    "53.1",
+    "53.2",
+    "53.3",
+    "54.1",
+    "54.2",
+    "54.3",
+    "55.1",
+    "55.2",
+    "55.3",
+    "57.1",
+    "57.2",
+    "57.3",
+    "56.1",
+    "56.2",
+    "56.3",
+    "58.2",
+    "60.1",
+    "60.2",
+    "60.3",
+    "59.2",
+    "61.1",
+    "61.2",
+    "61.3",
+    "62.1",
+    "62.2",
+    "62.3",
+    "63.1",
+    "63.2",
+    "63.3",
+    "64.1",
+    "64.2",
+    "64.3",
+    "65.1",
+    "65.2",
+    "65.3",
+    "66.1",
+    "66.2",
+    "66.3",
+    "67.1",
+    "68.1",
+    "67.2",
+    "67.3",
+    "72.1",
+    "72.2",
+    "72.3",
+    "97.1",
+    "97.2",
+    "97.3",
+    "69.1",
+    "70.1",
+    "71.1",
+    "73.3",
+    "76.1",
+    "76.2",
+    "76.3",
+    "74.3",
+    "75.3",
+    "77.1",
+    "77.2",
+    "77.3",
+    "86.1",
+    "86.2",
+    "86.3",
+    "78.1",
+    "78.2",
+    "78.3",
+    "79.1",
+    "79.2",
+    "79.3",
+    "80.1",
+    "80.2",
+    "80.3",
+    "81.1",
+    "81.2",
+    "81.3",
+    "82.1",
+    "82.2",
+    "82.3",
+    "84.3",
+    "83.1",
+    "83.2",
+    "83.3",
+    "85.3",
+    "87.1",
+    "87.2",
+    "87.3",
+    "88.1",
+    "89.1",
+    "89.2",
+    "89.3",
+    "90.2",
+    "91.1",
+    "91.2",
+    "91.3",
+    "92.3",
+    "93.1",
+    "93.2",
+    "93.3",
+    "94.1",
+    "95.1",
+    "95.2",
+    "95.3",
+    "96.2",
+    "98.1",
+    "98.2",
+    "98.3",
+    "99.1",
+    "99.2",
+    "99.3",
+    "100.1",
+    "100.2",
+    "100.3",
+    "450.1",
+    "450.2",
+    "450.3",
+    "197.1",
+    "197.2",
+    "197.3",
+    "101.1",
+    "101.2",
+    "101.3",
+    "102.3",
+    "105.1",
+    "105.2",
+    "105.3",
+    "103.3",
+    "104.3",
+    "106.2",
+    "108.1",
+    "108.2",
+    "108.3",
+    "107.2",
+    "109.1",
+    "300.1",
+    "300.2",
+    "300.3",
+    "110.1",
+    "111.1",
+    "112.1",
+    "113.1",
+    "114.1",
+    "135.1",
+    "135.2",
+    "135.3",
+    "152.1",
+    "152.2",
+    "152.3",
+    "160r.1",
+    "160r.2",
+    "160r.3",
+    "160.1",
+    "160.2",
+    "160.3",
+    "61s.1",
+    "61s.2",
+    "61s.3",
+    "300_open.1",
+    "300_open.2",
+    "300_open.3",
+    "94_open.1",
+    "610.1",
+    "610.2",
+    "610.3"
+  ],
+  "buses": [
+    {
+      "model_index": 0,
+      "opendss_bus": "150",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "150.1",
+          "node_index": 0,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "150.2",
+          "node_index": 1,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "150.3",
+          "node_index": 2,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 0,
+      "voltage_target_index": 0,
+      "angle_target_index": 132,
+      "scada_tensor_bus_index": 0,
+      "kalman_P_index": 0,
+      "kalman_Q_index": 1,
+      "pmu_tensor_station_index": 0,
+      "kalman_pmu_voltage_index": 264,
+      "kalman_pmu_angle_index": 265,
+      "load_names": []
+    },
+    {
+      "model_index": 1,
+      "opendss_bus": "150r",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "150r.1",
+          "node_index": 3,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "150r.2",
+          "node_index": 4,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "150r.3",
+          "node_index": 5,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 1,
+      "angle_target_index": 133,
+      "scada_tensor_bus_index": 1,
+      "kalman_P_index": 2,
+      "kalman_Q_index": 3,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 2,
+      "opendss_bus": "149",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "149.1",
+          "node_index": 6,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "149.2",
+          "node_index": 7,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "149.3",
+          "node_index": 8,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 2,
+      "angle_target_index": 134,
+      "scada_tensor_bus_index": 2,
+      "kalman_P_index": 4,
+      "kalman_Q_index": 5,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 3,
+      "opendss_bus": "1",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "1.1",
+          "node_index": 9,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "1.2",
+          "node_index": 10,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "1.3",
+          "node_index": 11,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 3,
+      "angle_target_index": 135,
+      "scada_tensor_bus_index": 3,
+      "kalman_P_index": 6,
+      "kalman_Q_index": 7,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s1a"
+      ]
+    },
+    {
+      "model_index": 4,
+      "opendss_bus": "2",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "2.2",
+          "node_index": 12,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 4,
+      "angle_target_index": 136,
+      "scada_tensor_bus_index": 4,
+      "kalman_P_index": 8,
+      "kalman_Q_index": 9,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s2b"
+      ]
+    },
+    {
+      "model_index": 5,
+      "opendss_bus": "3",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "3.3",
+          "node_index": 13,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 5,
+      "angle_target_index": 137,
+      "scada_tensor_bus_index": 5,
+      "kalman_P_index": 10,
+      "kalman_Q_index": 11,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 6,
+      "opendss_bus": "7",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "7.1",
+          "node_index": 14,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "7.2",
+          "node_index": 15,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "7.3",
+          "node_index": 16,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 6,
+      "angle_target_index": 138,
+      "scada_tensor_bus_index": 6,
+      "kalman_P_index": 12,
+      "kalman_Q_index": 13,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s7a"
+      ]
+    },
+    {
+      "model_index": 7,
+      "opendss_bus": "4",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "4.3",
+          "node_index": 17,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 7,
+      "angle_target_index": 139,
+      "scada_tensor_bus_index": 7,
+      "kalman_P_index": 14,
+      "kalman_Q_index": 15,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s4c"
+      ]
+    },
+    {
+      "model_index": 8,
+      "opendss_bus": "5",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "5.3",
+          "node_index": 18,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 8,
+      "angle_target_index": 140,
+      "scada_tensor_bus_index": 8,
+      "kalman_P_index": 16,
+      "kalman_Q_index": 17,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s5c"
+      ]
+    },
+    {
+      "model_index": 9,
+      "opendss_bus": "6",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "6.3",
+          "node_index": 19,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 9,
+      "angle_target_index": 141,
+      "scada_tensor_bus_index": 9,
+      "kalman_P_index": 18,
+      "kalman_Q_index": 19,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s6c"
+      ]
+    },
+    {
+      "model_index": 10,
+      "opendss_bus": "8",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "8.1",
+          "node_index": 20,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "8.2",
+          "node_index": 21,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "8.3",
+          "node_index": 22,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 10,
+      "angle_target_index": 142,
+      "scada_tensor_bus_index": 10,
+      "kalman_P_index": 20,
+      "kalman_Q_index": 21,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 11,
+      "opendss_bus": "12",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "12.2",
+          "node_index": 23,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 11,
+      "angle_target_index": 143,
+      "scada_tensor_bus_index": 11,
+      "kalman_P_index": 22,
+      "kalman_Q_index": 23,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s12b"
+      ]
+    },
+    {
+      "model_index": 12,
+      "opendss_bus": "9",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "9.1",
+          "node_index": 24,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 12,
+      "angle_target_index": 144,
+      "scada_tensor_bus_index": 12,
+      "kalman_P_index": 24,
+      "kalman_Q_index": 25,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s9a"
+      ]
+    },
+    {
+      "model_index": 13,
+      "opendss_bus": "13",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "13.1",
+          "node_index": 25,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "13.2",
+          "node_index": 26,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "13.3",
+          "node_index": 27,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 1,
+      "voltage_target_index": 13,
+      "angle_target_index": 145,
+      "scada_tensor_bus_index": 13,
+      "kalman_P_index": 26,
+      "kalman_Q_index": 27,
+      "pmu_tensor_station_index": 1,
+      "kalman_pmu_voltage_index": 266,
+      "kalman_pmu_angle_index": 267,
+      "load_names": []
+    },
+    {
+      "model_index": 14,
+      "opendss_bus": "9r",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "9r.1",
+          "node_index": 28,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 14,
+      "angle_target_index": 146,
+      "scada_tensor_bus_index": 14,
+      "kalman_P_index": 28,
+      "kalman_Q_index": 29,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 15,
+      "opendss_bus": "14",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "14.1",
+          "node_index": 29,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 15,
+      "angle_target_index": 147,
+      "scada_tensor_bus_index": 15,
+      "kalman_P_index": 30,
+      "kalman_Q_index": 31,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 16,
+      "opendss_bus": "34",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "34.3",
+          "node_index": 30,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 16,
+      "angle_target_index": 148,
+      "scada_tensor_bus_index": 16,
+      "kalman_P_index": 32,
+      "kalman_Q_index": 33,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s34c"
+      ]
+    },
+    {
+      "model_index": 17,
+      "opendss_bus": "18",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "18.1",
+          "node_index": 31,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "18.2",
+          "node_index": 32,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "18.3",
+          "node_index": 33,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 2,
+      "voltage_target_index": 17,
+      "angle_target_index": 149,
+      "scada_tensor_bus_index": 17,
+      "kalman_P_index": 34,
+      "kalman_Q_index": 35,
+      "pmu_tensor_station_index": 2,
+      "kalman_pmu_voltage_index": 268,
+      "kalman_pmu_angle_index": 269,
+      "load_names": []
+    },
+    {
+      "model_index": 18,
+      "opendss_bus": "11",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "11.1",
+          "node_index": 34,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 18,
+      "angle_target_index": 150,
+      "scada_tensor_bus_index": 18,
+      "kalman_P_index": 36,
+      "kalman_Q_index": 37,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s11a"
+      ]
+    },
+    {
+      "model_index": 19,
+      "opendss_bus": "10",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "10.1",
+          "node_index": 35,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 19,
+      "angle_target_index": 151,
+      "scada_tensor_bus_index": 19,
+      "kalman_P_index": 38,
+      "kalman_Q_index": 39,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s10a"
+      ]
+    },
+    {
+      "model_index": 20,
+      "opendss_bus": "15",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "15.3",
+          "node_index": 36,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 20,
+      "angle_target_index": 152,
+      "scada_tensor_bus_index": 20,
+      "kalman_P_index": 40,
+      "kalman_Q_index": 41,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 21,
+      "opendss_bus": "16",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "16.3",
+          "node_index": 37,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 21,
+      "angle_target_index": 153,
+      "scada_tensor_bus_index": 21,
+      "kalman_P_index": 42,
+      "kalman_Q_index": 43,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s16c"
+      ]
+    },
+    {
+      "model_index": 22,
+      "opendss_bus": "17",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "17.3",
+          "node_index": 38,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 22,
+      "angle_target_index": 154,
+      "scada_tensor_bus_index": 22,
+      "kalman_P_index": 44,
+      "kalman_Q_index": 45,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s17c"
+      ]
+    },
+    {
+      "model_index": 23,
+      "opendss_bus": "19",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "19.1",
+          "node_index": 39,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 23,
+      "angle_target_index": 155,
+      "scada_tensor_bus_index": 23,
+      "kalman_P_index": 46,
+      "kalman_Q_index": 47,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s19a"
+      ]
+    },
+    {
+      "model_index": 24,
+      "opendss_bus": "21",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "21.1",
+          "node_index": 40,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "21.2",
+          "node_index": 41,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "21.3",
+          "node_index": 42,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 24,
+      "angle_target_index": 156,
+      "scada_tensor_bus_index": 24,
+      "kalman_P_index": 48,
+      "kalman_Q_index": 49,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 25,
+      "opendss_bus": "20",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "20.1",
+          "node_index": 43,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 25,
+      "angle_target_index": 157,
+      "scada_tensor_bus_index": 25,
+      "kalman_P_index": 50,
+      "kalman_Q_index": 51,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s20a"
+      ]
+    },
+    {
+      "model_index": 26,
+      "opendss_bus": "22",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "22.2",
+          "node_index": 44,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 26,
+      "angle_target_index": 158,
+      "scada_tensor_bus_index": 26,
+      "kalman_P_index": 52,
+      "kalman_Q_index": 53,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s22b"
+      ]
+    },
+    {
+      "model_index": 27,
+      "opendss_bus": "23",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "23.1",
+          "node_index": 45,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "23.2",
+          "node_index": 46,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "23.3",
+          "node_index": 47,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 27,
+      "angle_target_index": 159,
+      "scada_tensor_bus_index": 27,
+      "kalman_P_index": 54,
+      "kalman_Q_index": 55,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 28,
+      "opendss_bus": "24",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "24.3",
+          "node_index": 48,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 28,
+      "angle_target_index": 160,
+      "scada_tensor_bus_index": 28,
+      "kalman_P_index": 56,
+      "kalman_Q_index": 57,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s24c"
+      ]
+    },
+    {
+      "model_index": 29,
+      "opendss_bus": "25",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "25.1",
+          "node_index": 49,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "25.2",
+          "node_index": 50,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "25.3",
+          "node_index": 51,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 3,
+      "voltage_target_index": 29,
+      "angle_target_index": 161,
+      "scada_tensor_bus_index": 29,
+      "kalman_P_index": 58,
+      "kalman_Q_index": 59,
+      "pmu_tensor_station_index": 3,
+      "kalman_pmu_voltage_index": 270,
+      "kalman_pmu_angle_index": 271,
+      "load_names": []
+    },
+    {
+      "model_index": 30,
+      "opendss_bus": "25r",
+      "phases": [
+        1,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "25r.1",
+          "node_index": 52,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.0002081791836020285,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 3,
+          "node_name": "25r.3",
+          "node_index": 53,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00010408959180101435,
+          "projection_coefficient_imag": -0.00018028846153846147
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 30,
+      "angle_target_index": 162,
+      "scada_tensor_bus_index": 30,
+      "kalman_P_index": 60,
+      "kalman_Q_index": 61,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 31,
+      "opendss_bus": "26",
+      "phases": [
+        1,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "26.1",
+          "node_index": 54,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.0002081791836020285,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 3,
+          "node_name": "26.3",
+          "node_index": 55,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00010408959180101435,
+          "projection_coefficient_imag": -0.00018028846153846147
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 31,
+      "angle_target_index": 163,
+      "scada_tensor_bus_index": 31,
+      "kalman_P_index": 62,
+      "kalman_Q_index": 63,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 32,
+      "opendss_bus": "28",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "28.1",
+          "node_index": 56,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "28.2",
+          "node_index": 57,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "28.3",
+          "node_index": 58,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 32,
+      "angle_target_index": 164,
+      "scada_tensor_bus_index": 32,
+      "kalman_P_index": 64,
+      "kalman_Q_index": 65,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s28a"
+      ]
+    },
+    {
+      "model_index": 33,
+      "opendss_bus": "27",
+      "phases": [
+        1,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "27.1",
+          "node_index": 59,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.0002081791836020285,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 3,
+          "node_name": "27.3",
+          "node_index": 60,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00010408959180101435,
+          "projection_coefficient_imag": -0.00018028846153846147
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 33,
+      "angle_target_index": 165,
+      "scada_tensor_bus_index": 33,
+      "kalman_P_index": 66,
+      "kalman_Q_index": 67,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 34,
+      "opendss_bus": "31",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "31.3",
+          "node_index": 61,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 34,
+      "angle_target_index": 166,
+      "scada_tensor_bus_index": 34,
+      "kalman_P_index": 68,
+      "kalman_Q_index": 69,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s31c"
+      ]
+    },
+    {
+      "model_index": 35,
+      "opendss_bus": "33",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "33.1",
+          "node_index": 62,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 35,
+      "angle_target_index": 167,
+      "scada_tensor_bus_index": 35,
+      "kalman_P_index": 70,
+      "kalman_Q_index": 71,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s33a"
+      ]
+    },
+    {
+      "model_index": 36,
+      "opendss_bus": "29",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "29.1",
+          "node_index": 63,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "29.2",
+          "node_index": 64,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "29.3",
+          "node_index": 65,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 36,
+      "angle_target_index": 168,
+      "scada_tensor_bus_index": 36,
+      "kalman_P_index": 72,
+      "kalman_Q_index": 73,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s29a"
+      ]
+    },
+    {
+      "model_index": 37,
+      "opendss_bus": "30",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "30.1",
+          "node_index": 66,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "30.2",
+          "node_index": 67,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "30.3",
+          "node_index": 68,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 37,
+      "angle_target_index": 169,
+      "scada_tensor_bus_index": 37,
+      "kalman_P_index": 74,
+      "kalman_Q_index": 75,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s30c"
+      ]
+    },
+    {
+      "model_index": 38,
+      "opendss_bus": "250",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "250.1",
+          "node_index": 69,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "250.2",
+          "node_index": 70,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "250.3",
+          "node_index": 71,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 38,
+      "angle_target_index": 170,
+      "scada_tensor_bus_index": 38,
+      "kalman_P_index": 76,
+      "kalman_Q_index": 77,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 39,
+      "opendss_bus": "32",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "32.3",
+          "node_index": 72,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 39,
+      "angle_target_index": 171,
+      "scada_tensor_bus_index": 39,
+      "kalman_P_index": 78,
+      "kalman_Q_index": 79,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s32c"
+      ]
+    },
+    {
+      "model_index": 40,
+      "opendss_bus": "35",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "35.1",
+          "node_index": 73,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "35.2",
+          "node_index": 74,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "35.3",
+          "node_index": 77,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 4,
+      "voltage_target_index": 40,
+      "angle_target_index": 172,
+      "scada_tensor_bus_index": 40,
+      "kalman_P_index": 80,
+      "kalman_Q_index": 81,
+      "pmu_tensor_station_index": 4,
+      "kalman_pmu_voltage_index": 272,
+      "kalman_pmu_angle_index": 273,
+      "load_names": [
+        "s35a"
+      ]
+    },
+    {
+      "model_index": 41,
+      "opendss_bus": "36",
+      "phases": [
+        1,
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "36.1",
+          "node_index": 75,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.0002081791836020285,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "36.2",
+          "node_index": 76,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00010408959180101421,
+          "projection_coefficient_imag": 0.00018028846153846155
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 41,
+      "angle_target_index": 173,
+      "scada_tensor_bus_index": 41,
+      "kalman_P_index": 82,
+      "kalman_Q_index": 83,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 42,
+      "opendss_bus": "40",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "40.1",
+          "node_index": 78,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "40.2",
+          "node_index": 79,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "40.3",
+          "node_index": 80,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 42,
+      "angle_target_index": 174,
+      "scada_tensor_bus_index": 42,
+      "kalman_P_index": 84,
+      "kalman_Q_index": 85,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 43,
+      "opendss_bus": "37",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "37.1",
+          "node_index": 81,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 43,
+      "angle_target_index": 175,
+      "scada_tensor_bus_index": 43,
+      "kalman_P_index": 86,
+      "kalman_Q_index": 87,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s37a"
+      ]
+    },
+    {
+      "model_index": 44,
+      "opendss_bus": "38",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "38.2",
+          "node_index": 82,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 44,
+      "angle_target_index": 176,
+      "scada_tensor_bus_index": 44,
+      "kalman_P_index": 88,
+      "kalman_Q_index": 89,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s38b"
+      ]
+    },
+    {
+      "model_index": 45,
+      "opendss_bus": "39",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "39.2",
+          "node_index": 83,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 45,
+      "angle_target_index": 177,
+      "scada_tensor_bus_index": 45,
+      "kalman_P_index": 90,
+      "kalman_Q_index": 91,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s39b"
+      ]
+    },
+    {
+      "model_index": 46,
+      "opendss_bus": "41",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "41.3",
+          "node_index": 84,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 46,
+      "angle_target_index": 178,
+      "scada_tensor_bus_index": 46,
+      "kalman_P_index": 92,
+      "kalman_Q_index": 93,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s41c"
+      ]
+    },
+    {
+      "model_index": 47,
+      "opendss_bus": "42",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "42.1",
+          "node_index": 85,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "42.2",
+          "node_index": 86,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "42.3",
+          "node_index": 87,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 47,
+      "angle_target_index": 179,
+      "scada_tensor_bus_index": 47,
+      "kalman_P_index": 94,
+      "kalman_Q_index": 95,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s42a"
+      ]
+    },
+    {
+      "model_index": 48,
+      "opendss_bus": "43",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "43.2",
+          "node_index": 88,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 48,
+      "angle_target_index": 180,
+      "scada_tensor_bus_index": 48,
+      "kalman_P_index": 96,
+      "kalman_Q_index": 97,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s43b"
+      ]
+    },
+    {
+      "model_index": 49,
+      "opendss_bus": "44",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "44.1",
+          "node_index": 89,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "44.2",
+          "node_index": 90,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "44.3",
+          "node_index": 91,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 49,
+      "angle_target_index": 181,
+      "scada_tensor_bus_index": 49,
+      "kalman_P_index": 98,
+      "kalman_Q_index": 99,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 50,
+      "opendss_bus": "45",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "45.1",
+          "node_index": 92,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 50,
+      "angle_target_index": 182,
+      "scada_tensor_bus_index": 50,
+      "kalman_P_index": 100,
+      "kalman_Q_index": 101,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s45a"
+      ]
+    },
+    {
+      "model_index": 51,
+      "opendss_bus": "47",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "47.1",
+          "node_index": 93,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "47.2",
+          "node_index": 94,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "47.3",
+          "node_index": 95,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 5,
+      "voltage_target_index": 51,
+      "angle_target_index": 183,
+      "scada_tensor_bus_index": 51,
+      "kalman_P_index": 102,
+      "kalman_Q_index": 103,
+      "pmu_tensor_station_index": 5,
+      "kalman_pmu_voltage_index": 274,
+      "kalman_pmu_angle_index": 275,
+      "load_names": [
+        "s47"
+      ]
+    },
+    {
+      "model_index": 52,
+      "opendss_bus": "46",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "46.1",
+          "node_index": 96,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 52,
+      "angle_target_index": 184,
+      "scada_tensor_bus_index": 52,
+      "kalman_P_index": 104,
+      "kalman_Q_index": 105,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s46a"
+      ]
+    },
+    {
+      "model_index": 53,
+      "opendss_bus": "48",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "48.1",
+          "node_index": 97,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "48.2",
+          "node_index": 98,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "48.3",
+          "node_index": 99,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 53,
+      "angle_target_index": 185,
+      "scada_tensor_bus_index": 53,
+      "kalman_P_index": 106,
+      "kalman_Q_index": 107,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s48"
+      ]
+    },
+    {
+      "model_index": 54,
+      "opendss_bus": "49",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "49.1",
+          "node_index": 100,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "49.2",
+          "node_index": 101,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "49.3",
+          "node_index": 102,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 54,
+      "angle_target_index": 186,
+      "scada_tensor_bus_index": 54,
+      "kalman_P_index": 108,
+      "kalman_Q_index": 109,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s49a",
+        "s49b",
+        "s49c"
+      ]
+    },
+    {
+      "model_index": 55,
+      "opendss_bus": "50",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "50.1",
+          "node_index": 103,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "50.2",
+          "node_index": 104,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "50.3",
+          "node_index": 105,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 55,
+      "angle_target_index": 187,
+      "scada_tensor_bus_index": 55,
+      "kalman_P_index": 110,
+      "kalman_Q_index": 111,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s50c"
+      ]
+    },
+    {
+      "model_index": 56,
+      "opendss_bus": "51",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "51.1",
+          "node_index": 106,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "51.2",
+          "node_index": 107,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "51.3",
+          "node_index": 108,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 56,
+      "angle_target_index": 188,
+      "scada_tensor_bus_index": 56,
+      "kalman_P_index": 112,
+      "kalman_Q_index": 113,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s51a"
+      ]
+    },
+    {
+      "model_index": 57,
+      "opendss_bus": "151",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "151.1",
+          "node_index": 109,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "151.2",
+          "node_index": 110,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "151.3",
+          "node_index": 111,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 57,
+      "angle_target_index": 189,
+      "scada_tensor_bus_index": 57,
+      "kalman_P_index": 114,
+      "kalman_Q_index": 115,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 58,
+      "opendss_bus": "52",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "52.1",
+          "node_index": 112,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "52.2",
+          "node_index": 113,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "52.3",
+          "node_index": 114,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 58,
+      "angle_target_index": 190,
+      "scada_tensor_bus_index": 58,
+      "kalman_P_index": 116,
+      "kalman_Q_index": 117,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s52a"
+      ]
+    },
+    {
+      "model_index": 59,
+      "opendss_bus": "53",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "53.1",
+          "node_index": 115,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "53.2",
+          "node_index": 116,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "53.3",
+          "node_index": 117,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 59,
+      "angle_target_index": 191,
+      "scada_tensor_bus_index": 59,
+      "kalman_P_index": 118,
+      "kalman_Q_index": 119,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s53a"
+      ]
+    },
+    {
+      "model_index": 60,
+      "opendss_bus": "54",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "54.1",
+          "node_index": 118,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "54.2",
+          "node_index": 119,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "54.3",
+          "node_index": 120,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 60,
+      "angle_target_index": 192,
+      "scada_tensor_bus_index": 60,
+      "kalman_P_index": 120,
+      "kalman_Q_index": 121,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 61,
+      "opendss_bus": "55",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "55.1",
+          "node_index": 121,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "55.2",
+          "node_index": 122,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "55.3",
+          "node_index": 123,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 61,
+      "angle_target_index": 193,
+      "scada_tensor_bus_index": 61,
+      "kalman_P_index": 122,
+      "kalman_Q_index": 123,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s55a"
+      ]
+    },
+    {
+      "model_index": 62,
+      "opendss_bus": "57",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "57.1",
+          "node_index": 124,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "57.2",
+          "node_index": 125,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "57.3",
+          "node_index": 126,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 62,
+      "angle_target_index": 194,
+      "scada_tensor_bus_index": 62,
+      "kalman_P_index": 124,
+      "kalman_Q_index": 125,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 63,
+      "opendss_bus": "56",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "56.1",
+          "node_index": 127,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "56.2",
+          "node_index": 128,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "56.3",
+          "node_index": 129,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 63,
+      "angle_target_index": 195,
+      "scada_tensor_bus_index": 63,
+      "kalman_P_index": 126,
+      "kalman_Q_index": 127,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s56b"
+      ]
+    },
+    {
+      "model_index": 64,
+      "opendss_bus": "58",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "58.2",
+          "node_index": 130,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 64,
+      "angle_target_index": 196,
+      "scada_tensor_bus_index": 64,
+      "kalman_P_index": 128,
+      "kalman_Q_index": 129,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s58b"
+      ]
+    },
+    {
+      "model_index": 65,
+      "opendss_bus": "60",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "60.1",
+          "node_index": 131,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "60.2",
+          "node_index": 132,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "60.3",
+          "node_index": 133,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 6,
+      "voltage_target_index": 65,
+      "angle_target_index": 197,
+      "scada_tensor_bus_index": 65,
+      "kalman_P_index": 130,
+      "kalman_Q_index": 131,
+      "pmu_tensor_station_index": 6,
+      "kalman_pmu_voltage_index": 276,
+      "kalman_pmu_angle_index": 277,
+      "load_names": [
+        "s60a"
+      ]
+    },
+    {
+      "model_index": 66,
+      "opendss_bus": "59",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "59.2",
+          "node_index": 134,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 66,
+      "angle_target_index": 198,
+      "scada_tensor_bus_index": 66,
+      "kalman_P_index": 132,
+      "kalman_Q_index": 133,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s59b"
+      ]
+    },
+    {
+      "model_index": 67,
+      "opendss_bus": "61",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "61.1",
+          "node_index": 135,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "61.2",
+          "node_index": 136,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "61.3",
+          "node_index": 137,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 67,
+      "angle_target_index": 199,
+      "scada_tensor_bus_index": 67,
+      "kalman_P_index": 134,
+      "kalman_Q_index": 135,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 68,
+      "opendss_bus": "62",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "62.1",
+          "node_index": 138,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "62.2",
+          "node_index": 139,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "62.3",
+          "node_index": 140,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 68,
+      "angle_target_index": 200,
+      "scada_tensor_bus_index": 68,
+      "kalman_P_index": 136,
+      "kalman_Q_index": 137,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s62c"
+      ]
+    },
+    {
+      "model_index": 69,
+      "opendss_bus": "63",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "63.1",
+          "node_index": 141,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "63.2",
+          "node_index": 142,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "63.3",
+          "node_index": 143,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 69,
+      "angle_target_index": 201,
+      "scada_tensor_bus_index": 69,
+      "kalman_P_index": 138,
+      "kalman_Q_index": 139,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s63a"
+      ]
+    },
+    {
+      "model_index": 70,
+      "opendss_bus": "64",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "64.1",
+          "node_index": 144,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "64.2",
+          "node_index": 145,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "64.3",
+          "node_index": 146,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 70,
+      "angle_target_index": 202,
+      "scada_tensor_bus_index": 70,
+      "kalman_P_index": 140,
+      "kalman_Q_index": 141,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s64b"
+      ]
+    },
+    {
+      "model_index": 71,
+      "opendss_bus": "65",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "65.1",
+          "node_index": 147,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "65.2",
+          "node_index": 148,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "65.3",
+          "node_index": 149,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 71,
+      "angle_target_index": 203,
+      "scada_tensor_bus_index": 71,
+      "kalman_P_index": 142,
+      "kalman_Q_index": 143,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s65a",
+        "s65b",
+        "s65c"
+      ]
+    },
+    {
+      "model_index": 72,
+      "opendss_bus": "66",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "66.1",
+          "node_index": 150,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "66.2",
+          "node_index": 151,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "66.3",
+          "node_index": 152,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 72,
+      "angle_target_index": 204,
+      "scada_tensor_bus_index": 72,
+      "kalman_P_index": 144,
+      "kalman_Q_index": 145,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s66c"
+      ]
+    },
+    {
+      "model_index": 73,
+      "opendss_bus": "67",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "67.1",
+          "node_index": 153,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "67.2",
+          "node_index": 155,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "67.3",
+          "node_index": 156,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 7,
+      "voltage_target_index": 73,
+      "angle_target_index": 205,
+      "scada_tensor_bus_index": 73,
+      "kalman_P_index": 146,
+      "kalman_Q_index": 147,
+      "pmu_tensor_station_index": 7,
+      "kalman_pmu_voltage_index": 278,
+      "kalman_pmu_angle_index": 279,
+      "load_names": []
+    },
+    {
+      "model_index": 74,
+      "opendss_bus": "68",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "68.1",
+          "node_index": 154,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 74,
+      "angle_target_index": 206,
+      "scada_tensor_bus_index": 74,
+      "kalman_P_index": 148,
+      "kalman_Q_index": 149,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s68a"
+      ]
+    },
+    {
+      "model_index": 75,
+      "opendss_bus": "72",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "72.1",
+          "node_index": 157,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "72.2",
+          "node_index": 158,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "72.3",
+          "node_index": 159,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 75,
+      "angle_target_index": 207,
+      "scada_tensor_bus_index": 75,
+      "kalman_P_index": 150,
+      "kalman_Q_index": 151,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 76,
+      "opendss_bus": "97",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "97.1",
+          "node_index": 160,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "97.2",
+          "node_index": 161,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "97.3",
+          "node_index": 162,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 76,
+      "angle_target_index": 208,
+      "scada_tensor_bus_index": 76,
+      "kalman_P_index": 152,
+      "kalman_Q_index": 153,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 77,
+      "opendss_bus": "69",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "69.1",
+          "node_index": 163,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 77,
+      "angle_target_index": 209,
+      "scada_tensor_bus_index": 77,
+      "kalman_P_index": 154,
+      "kalman_Q_index": 155,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s69a"
+      ]
+    },
+    {
+      "model_index": 78,
+      "opendss_bus": "70",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "70.1",
+          "node_index": 164,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 78,
+      "angle_target_index": 210,
+      "scada_tensor_bus_index": 78,
+      "kalman_P_index": 156,
+      "kalman_Q_index": 157,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s70a"
+      ]
+    },
+    {
+      "model_index": 79,
+      "opendss_bus": "71",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "71.1",
+          "node_index": 165,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 79,
+      "angle_target_index": 211,
+      "scada_tensor_bus_index": 79,
+      "kalman_P_index": 158,
+      "kalman_Q_index": 159,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s71a"
+      ]
+    },
+    {
+      "model_index": 80,
+      "opendss_bus": "73",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "73.3",
+          "node_index": 166,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 80,
+      "angle_target_index": 212,
+      "scada_tensor_bus_index": 80,
+      "kalman_P_index": 160,
+      "kalman_Q_index": 161,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s73c"
+      ]
+    },
+    {
+      "model_index": 81,
+      "opendss_bus": "76",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "76.1",
+          "node_index": 167,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "76.2",
+          "node_index": 168,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "76.3",
+          "node_index": 169,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 8,
+      "voltage_target_index": 81,
+      "angle_target_index": 213,
+      "scada_tensor_bus_index": 81,
+      "kalman_P_index": 162,
+      "kalman_Q_index": 163,
+      "pmu_tensor_station_index": 8,
+      "kalman_pmu_voltage_index": 280,
+      "kalman_pmu_angle_index": 281,
+      "load_names": [
+        "s76a",
+        "s76b",
+        "s76c"
+      ]
+    },
+    {
+      "model_index": 82,
+      "opendss_bus": "74",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "74.3",
+          "node_index": 170,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 82,
+      "angle_target_index": 214,
+      "scada_tensor_bus_index": 82,
+      "kalman_P_index": 164,
+      "kalman_Q_index": 165,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s74c"
+      ]
+    },
+    {
+      "model_index": 83,
+      "opendss_bus": "75",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "75.3",
+          "node_index": 171,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 83,
+      "angle_target_index": 215,
+      "scada_tensor_bus_index": 83,
+      "kalman_P_index": 166,
+      "kalman_Q_index": 167,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s75c"
+      ]
+    },
+    {
+      "model_index": 84,
+      "opendss_bus": "77",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "77.1",
+          "node_index": 172,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "77.2",
+          "node_index": 173,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "77.3",
+          "node_index": 174,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 84,
+      "angle_target_index": 216,
+      "scada_tensor_bus_index": 84,
+      "kalman_P_index": 168,
+      "kalman_Q_index": 169,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s77b"
+      ]
+    },
+    {
+      "model_index": 85,
+      "opendss_bus": "86",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "86.1",
+          "node_index": 175,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "86.2",
+          "node_index": 176,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "86.3",
+          "node_index": 177,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 85,
+      "angle_target_index": 217,
+      "scada_tensor_bus_index": 85,
+      "kalman_P_index": 170,
+      "kalman_Q_index": 171,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s86b"
+      ]
+    },
+    {
+      "model_index": 86,
+      "opendss_bus": "78",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "78.1",
+          "node_index": 178,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "78.2",
+          "node_index": 179,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "78.3",
+          "node_index": 180,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 86,
+      "angle_target_index": 218,
+      "scada_tensor_bus_index": 86,
+      "kalman_P_index": 172,
+      "kalman_Q_index": 173,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 87,
+      "opendss_bus": "79",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "79.1",
+          "node_index": 181,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "79.2",
+          "node_index": 182,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "79.3",
+          "node_index": 183,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 87,
+      "angle_target_index": 219,
+      "scada_tensor_bus_index": 87,
+      "kalman_P_index": 174,
+      "kalman_Q_index": 175,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s79a"
+      ]
+    },
+    {
+      "model_index": 88,
+      "opendss_bus": "80",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "80.1",
+          "node_index": 184,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "80.2",
+          "node_index": 185,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "80.3",
+          "node_index": 186,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 88,
+      "angle_target_index": 220,
+      "scada_tensor_bus_index": 88,
+      "kalman_P_index": 176,
+      "kalman_Q_index": 177,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s80b"
+      ]
+    },
+    {
+      "model_index": 89,
+      "opendss_bus": "81",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "81.1",
+          "node_index": 187,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "81.2",
+          "node_index": 188,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "81.3",
+          "node_index": 189,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 89,
+      "angle_target_index": 221,
+      "scada_tensor_bus_index": 89,
+      "kalman_P_index": 178,
+      "kalman_Q_index": 179,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 90,
+      "opendss_bus": "82",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "82.1",
+          "node_index": 190,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "82.2",
+          "node_index": 191,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "82.3",
+          "node_index": 192,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 90,
+      "angle_target_index": 222,
+      "scada_tensor_bus_index": 90,
+      "kalman_P_index": 180,
+      "kalman_Q_index": 181,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s82a"
+      ]
+    },
+    {
+      "model_index": 91,
+      "opendss_bus": "84",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "84.3",
+          "node_index": 193,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 91,
+      "angle_target_index": 223,
+      "scada_tensor_bus_index": 91,
+      "kalman_P_index": 182,
+      "kalman_Q_index": 183,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s84c"
+      ]
+    },
+    {
+      "model_index": 92,
+      "opendss_bus": "83",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "83.1",
+          "node_index": 194,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "83.2",
+          "node_index": 195,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "83.3",
+          "node_index": 196,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 92,
+      "angle_target_index": 224,
+      "scada_tensor_bus_index": 92,
+      "kalman_P_index": 184,
+      "kalman_Q_index": 185,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s83c"
+      ]
+    },
+    {
+      "model_index": 93,
+      "opendss_bus": "85",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "85.3",
+          "node_index": 197,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 93,
+      "angle_target_index": 225,
+      "scada_tensor_bus_index": 93,
+      "kalman_P_index": 186,
+      "kalman_Q_index": 187,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s85c"
+      ]
+    },
+    {
+      "model_index": 94,
+      "opendss_bus": "87",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "87.1",
+          "node_index": 198,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "87.2",
+          "node_index": 199,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "87.3",
+          "node_index": 200,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 94,
+      "angle_target_index": 226,
+      "scada_tensor_bus_index": 94,
+      "kalman_P_index": 188,
+      "kalman_Q_index": 189,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s87b"
+      ]
+    },
+    {
+      "model_index": 95,
+      "opendss_bus": "88",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "88.1",
+          "node_index": 201,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 95,
+      "angle_target_index": 227,
+      "scada_tensor_bus_index": 95,
+      "kalman_P_index": 190,
+      "kalman_Q_index": 191,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s88a"
+      ]
+    },
+    {
+      "model_index": 96,
+      "opendss_bus": "89",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "89.1",
+          "node_index": 202,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "89.2",
+          "node_index": 203,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "89.3",
+          "node_index": 204,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 9,
+      "voltage_target_index": 96,
+      "angle_target_index": 228,
+      "scada_tensor_bus_index": 96,
+      "kalman_P_index": 192,
+      "kalman_Q_index": 193,
+      "pmu_tensor_station_index": 9,
+      "kalman_pmu_voltage_index": 282,
+      "kalman_pmu_angle_index": 283,
+      "load_names": []
+    },
+    {
+      "model_index": 97,
+      "opendss_bus": "90",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "90.2",
+          "node_index": 205,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 97,
+      "angle_target_index": 229,
+      "scada_tensor_bus_index": 97,
+      "kalman_P_index": 194,
+      "kalman_Q_index": 195,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s90b"
+      ]
+    },
+    {
+      "model_index": 98,
+      "opendss_bus": "91",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "91.1",
+          "node_index": 206,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "91.2",
+          "node_index": 207,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "91.3",
+          "node_index": 208,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 98,
+      "angle_target_index": 230,
+      "scada_tensor_bus_index": 98,
+      "kalman_P_index": 196,
+      "kalman_Q_index": 197,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 99,
+      "opendss_bus": "92",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "92.3",
+          "node_index": 209,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 99,
+      "angle_target_index": 231,
+      "scada_tensor_bus_index": 99,
+      "kalman_P_index": 198,
+      "kalman_Q_index": 199,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s92c"
+      ]
+    },
+    {
+      "model_index": 100,
+      "opendss_bus": "93",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "93.1",
+          "node_index": 210,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "93.2",
+          "node_index": 211,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "93.3",
+          "node_index": 212,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 100,
+      "angle_target_index": 232,
+      "scada_tensor_bus_index": 100,
+      "kalman_P_index": 200,
+      "kalman_Q_index": 201,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 101,
+      "opendss_bus": "94",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "94.1",
+          "node_index": 213,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 101,
+      "angle_target_index": 233,
+      "scada_tensor_bus_index": 101,
+      "kalman_P_index": 202,
+      "kalman_Q_index": 203,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s94a"
+      ]
+    },
+    {
+      "model_index": 102,
+      "opendss_bus": "95",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "95.1",
+          "node_index": 214,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "95.2",
+          "node_index": 215,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "95.3",
+          "node_index": 216,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 102,
+      "angle_target_index": 234,
+      "scada_tensor_bus_index": 102,
+      "kalman_P_index": 204,
+      "kalman_Q_index": 205,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s95b"
+      ]
+    },
+    {
+      "model_index": 103,
+      "opendss_bus": "96",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "96.2",
+          "node_index": 217,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 103,
+      "angle_target_index": 235,
+      "scada_tensor_bus_index": 103,
+      "kalman_P_index": 206,
+      "kalman_Q_index": 207,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s96b"
+      ]
+    },
+    {
+      "model_index": 104,
+      "opendss_bus": "98",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "98.1",
+          "node_index": 218,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "98.2",
+          "node_index": 219,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "98.3",
+          "node_index": 220,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 104,
+      "angle_target_index": 236,
+      "scada_tensor_bus_index": 104,
+      "kalman_P_index": 208,
+      "kalman_Q_index": 209,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s98a"
+      ]
+    },
+    {
+      "model_index": 105,
+      "opendss_bus": "99",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "99.1",
+          "node_index": 221,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "99.2",
+          "node_index": 222,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "99.3",
+          "node_index": 223,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 105,
+      "angle_target_index": 237,
+      "scada_tensor_bus_index": 105,
+      "kalman_P_index": 210,
+      "kalman_Q_index": 211,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s99b"
+      ]
+    },
+    {
+      "model_index": 106,
+      "opendss_bus": "100",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "100.1",
+          "node_index": 224,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "100.2",
+          "node_index": 225,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "100.3",
+          "node_index": 226,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 106,
+      "angle_target_index": 238,
+      "scada_tensor_bus_index": 106,
+      "kalman_P_index": 212,
+      "kalman_Q_index": 213,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s100c"
+      ]
+    },
+    {
+      "model_index": 107,
+      "opendss_bus": "450",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "450.1",
+          "node_index": 227,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "450.2",
+          "node_index": 228,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "450.3",
+          "node_index": 229,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 107,
+      "angle_target_index": 239,
+      "scada_tensor_bus_index": 107,
+      "kalman_P_index": 214,
+      "kalman_Q_index": 215,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 108,
+      "opendss_bus": "197",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "197.1",
+          "node_index": 230,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "197.2",
+          "node_index": 231,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "197.3",
+          "node_index": 232,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 108,
+      "angle_target_index": 240,
+      "scada_tensor_bus_index": 108,
+      "kalman_P_index": 216,
+      "kalman_Q_index": 217,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 109,
+      "opendss_bus": "101",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "101.1",
+          "node_index": 233,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "101.2",
+          "node_index": 234,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "101.3",
+          "node_index": 235,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": 10,
+      "voltage_target_index": 109,
+      "angle_target_index": 241,
+      "scada_tensor_bus_index": 109,
+      "kalman_P_index": 218,
+      "kalman_Q_index": 219,
+      "pmu_tensor_station_index": 10,
+      "kalman_pmu_voltage_index": 284,
+      "kalman_pmu_angle_index": 285,
+      "load_names": []
+    },
+    {
+      "model_index": 110,
+      "opendss_bus": "102",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "102.3",
+          "node_index": 236,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 110,
+      "angle_target_index": 242,
+      "scada_tensor_bus_index": 110,
+      "kalman_P_index": 220,
+      "kalman_Q_index": 221,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s102c"
+      ]
+    },
+    {
+      "model_index": 111,
+      "opendss_bus": "105",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "105.1",
+          "node_index": 237,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "105.2",
+          "node_index": 238,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "105.3",
+          "node_index": 239,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 111,
+      "angle_target_index": 243,
+      "scada_tensor_bus_index": 111,
+      "kalman_P_index": 222,
+      "kalman_Q_index": 223,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 112,
+      "opendss_bus": "103",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "103.3",
+          "node_index": 240,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 112,
+      "angle_target_index": 244,
+      "scada_tensor_bus_index": 112,
+      "kalman_P_index": 224,
+      "kalman_Q_index": 225,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s103c"
+      ]
+    },
+    {
+      "model_index": 113,
+      "opendss_bus": "104",
+      "phases": [
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 3,
+          "node_name": "104.3",
+          "node_index": 241,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.0002081791836020287,
+          "projection_coefficient_imag": -0.00036057692307692293
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 113,
+      "angle_target_index": 245,
+      "scada_tensor_bus_index": 113,
+      "kalman_P_index": 226,
+      "kalman_Q_index": 227,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s104c"
+      ]
+    },
+    {
+      "model_index": 114,
+      "opendss_bus": "106",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "106.2",
+          "node_index": 242,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 114,
+      "angle_target_index": 246,
+      "scada_tensor_bus_index": 114,
+      "kalman_P_index": 228,
+      "kalman_Q_index": 229,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s106b"
+      ]
+    },
+    {
+      "model_index": 115,
+      "opendss_bus": "108",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "108.1",
+          "node_index": 243,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "108.2",
+          "node_index": 244,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "108.3",
+          "node_index": 245,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 115,
+      "angle_target_index": 247,
+      "scada_tensor_bus_index": 115,
+      "kalman_P_index": 230,
+      "kalman_Q_index": 231,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 116,
+      "opendss_bus": "107",
+      "phases": [
+        2
+      ],
+      "nodes": [
+        {
+          "phase": 2,
+          "node_name": "107.2",
+          "node_index": 246,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -0.00020817918360202842,
+          "projection_coefficient_imag": 0.0003605769230769231
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 116,
+      "angle_target_index": 248,
+      "scada_tensor_bus_index": 116,
+      "kalman_P_index": 232,
+      "kalman_Q_index": 233,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s107b"
+      ]
+    },
+    {
+      "model_index": 117,
+      "opendss_bus": "109",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "109.1",
+          "node_index": 247,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 117,
+      "angle_target_index": 249,
+      "scada_tensor_bus_index": 117,
+      "kalman_P_index": 234,
+      "kalman_Q_index": 235,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s109a"
+      ]
+    },
+    {
+      "model_index": 118,
+      "opendss_bus": "300",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "300.1",
+          "node_index": 248,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "300.2",
+          "node_index": 249,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "300.3",
+          "node_index": 250,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 118,
+      "angle_target_index": 250,
+      "scada_tensor_bus_index": 118,
+      "kalman_P_index": 236,
+      "kalman_Q_index": 237,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 119,
+      "opendss_bus": "110",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "110.1",
+          "node_index": 251,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 119,
+      "angle_target_index": 251,
+      "scada_tensor_bus_index": 119,
+      "kalman_P_index": 238,
+      "kalman_Q_index": 239,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 120,
+      "opendss_bus": "111",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "111.1",
+          "node_index": 252,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 120,
+      "angle_target_index": 252,
+      "scada_tensor_bus_index": 120,
+      "kalman_P_index": 240,
+      "kalman_Q_index": 241,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s111a"
+      ]
+    },
+    {
+      "model_index": 121,
+      "opendss_bus": "112",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "112.1",
+          "node_index": 253,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 121,
+      "angle_target_index": 253,
+      "scada_tensor_bus_index": 121,
+      "kalman_P_index": 242,
+      "kalman_Q_index": 243,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s112a"
+      ]
+    },
+    {
+      "model_index": 122,
+      "opendss_bus": "113",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "113.1",
+          "node_index": 254,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 122,
+      "angle_target_index": 254,
+      "scada_tensor_bus_index": 122,
+      "kalman_P_index": 244,
+      "kalman_Q_index": 245,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": [
+        "s113a"
+      ]
+    },
+    {
+      "model_index": 123,
+      "opendss_bus": "114",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "114.1",
+          "node_index": 255,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": 11,
+      "voltage_target_index": 123,
+      "angle_target_index": 255,
+      "scada_tensor_bus_index": 123,
+      "kalman_P_index": 246,
+      "kalman_Q_index": 247,
+      "pmu_tensor_station_index": 11,
+      "kalman_pmu_voltage_index": 286,
+      "kalman_pmu_angle_index": 287,
+      "load_names": [
+        "s114a"
+      ]
+    },
+    {
+      "model_index": 124,
+      "opendss_bus": "135",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "135.1",
+          "node_index": 256,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "135.2",
+          "node_index": 257,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "135.3",
+          "node_index": 258,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 124,
+      "angle_target_index": 256,
+      "scada_tensor_bus_index": 124,
+      "kalman_P_index": 248,
+      "kalman_Q_index": 249,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 125,
+      "opendss_bus": "152",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "152.1",
+          "node_index": 259,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "152.2",
+          "node_index": 260,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "152.3",
+          "node_index": 261,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 125,
+      "angle_target_index": 257,
+      "scada_tensor_bus_index": 125,
+      "kalman_P_index": 250,
+      "kalman_Q_index": 251,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 126,
+      "opendss_bus": "160r",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "160r.1",
+          "node_index": 262,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "160r.2",
+          "node_index": 263,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "160r.3",
+          "node_index": 264,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 126,
+      "angle_target_index": 258,
+      "scada_tensor_bus_index": 126,
+      "kalman_P_index": 252,
+      "kalman_Q_index": 253,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 127,
+      "opendss_bus": "160",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "160.1",
+          "node_index": 265,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "160.2",
+          "node_index": 266,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "160.3",
+          "node_index": 267,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 127,
+      "angle_target_index": 259,
+      "scada_tensor_bus_index": 127,
+      "kalman_P_index": 254,
+      "kalman_Q_index": 255,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 128,
+      "opendss_bus": "61s",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "61s.1",
+          "node_index": 268,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "61s.2",
+          "node_index": 269,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "61s.3",
+          "node_index": 270,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 128,
+      "angle_target_index": 260,
+      "scada_tensor_bus_index": 128,
+      "kalman_P_index": 256,
+      "kalman_Q_index": 257,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 129,
+      "opendss_bus": "300_open",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "300_open.1",
+          "node_index": 271,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.00013878612240135233,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "300_open.2",
+          "node_index": 272,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067612e-05,
+          "projection_coefficient_imag": 0.00012019230769230767
+        },
+        {
+          "phase": 3,
+          "node_name": "300_open.3",
+          "node_index": 273,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": -6.939306120067622e-05,
+          "projection_coefficient_imag": -0.00012019230769230763
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 129,
+      "angle_target_index": 261,
+      "scada_tensor_bus_index": 129,
+      "kalman_P_index": 258,
+      "kalman_Q_index": 259,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 130,
+      "opendss_bus": "94_open",
+      "phases": [
+        1
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "94_open.1",
+          "node_index": 274,
+          "base_volts": 2401.7771198288433,
+          "projection_coefficient_real": 0.000416358367204057,
+          "projection_coefficient_imag": 0.0
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 130,
+      "angle_target_index": 262,
+      "scada_tensor_bus_index": 130,
+      "kalman_P_index": 260,
+      "kalman_Q_index": 261,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    },
+    {
+      "model_index": 131,
+      "opendss_bus": "610",
+      "phases": [
+        1,
+        2,
+        3
+      ],
+      "nodes": [
+        {
+          "phase": 1,
+          "node_name": "610.1",
+          "node_index": 275,
+          "base_volts": 277.1281292110204,
+          "projection_coefficient_real": 0.00120281306081172,
+          "projection_coefficient_imag": 0.0
+        },
+        {
+          "phase": 2,
+          "node_name": "610.2",
+          "node_index": 276,
+          "base_volts": 277.1281292110204,
+          "projection_coefficient_real": -0.0006014065304058597,
+          "projection_coefficient_imag": 0.0010416666666666664
+        },
+        {
+          "phase": 3,
+          "node_name": "610.3",
+          "node_index": 277,
+          "base_volts": 277.1281292110204,
+          "projection_coefficient_real": -0.0006014065304058606,
+          "projection_coefficient_imag": -0.001041666666666666
+        }
+      ],
+      "pmu_slot": null,
+      "voltage_target_index": 131,
+      "angle_target_index": 263,
+      "scada_tensor_bus_index": 131,
+      "kalman_P_index": 262,
+      "kalman_Q_index": 263,
+      "pmu_tensor_station_index": null,
+      "kalman_pmu_voltage_index": null,
+      "kalman_pmu_angle_index": null,
+      "load_names": []
+    }
+  ],
+  "physical_parameter_dimension": 98,
+  "physical_parameters": [
+    {
+      "parameter_index": 0,
+      "kind": "load_multiplier",
+      "name": "s1a",
+      "bus": "1",
+      "bus_index": 3,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 1,
+      "kind": "load_multiplier",
+      "name": "s2b",
+      "bus": "2",
+      "bus_index": 4,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 2,
+      "kind": "load_multiplier",
+      "name": "s4c",
+      "bus": "4",
+      "bus_index": 7,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 3,
+      "kind": "load_multiplier",
+      "name": "s5c",
+      "bus": "5",
+      "bus_index": 8,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 4,
+      "kind": "load_multiplier",
+      "name": "s6c",
+      "bus": "6",
+      "bus_index": 9,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 5,
+      "kind": "load_multiplier",
+      "name": "s7a",
+      "bus": "7",
+      "bus_index": 6,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 6,
+      "kind": "load_multiplier",
+      "name": "s9a",
+      "bus": "9",
+      "bus_index": 12,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 7,
+      "kind": "load_multiplier",
+      "name": "s10a",
+      "bus": "10",
+      "bus_index": 19,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 8,
+      "kind": "load_multiplier",
+      "name": "s11a",
+      "bus": "11",
+      "bus_index": 18,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 9,
+      "kind": "load_multiplier",
+      "name": "s12b",
+      "bus": "12",
+      "bus_index": 11,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 10,
+      "kind": "load_multiplier",
+      "name": "s16c",
+      "bus": "16",
+      "bus_index": 21,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 11,
+      "kind": "load_multiplier",
+      "name": "s17c",
+      "bus": "17",
+      "bus_index": 22,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 12,
+      "kind": "load_multiplier",
+      "name": "s19a",
+      "bus": "19",
+      "bus_index": 23,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 13,
+      "kind": "load_multiplier",
+      "name": "s20a",
+      "bus": "20",
+      "bus_index": 25,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 14,
+      "kind": "load_multiplier",
+      "name": "s22b",
+      "bus": "22",
+      "bus_index": 26,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 15,
+      "kind": "load_multiplier",
+      "name": "s24c",
+      "bus": "24",
+      "bus_index": 28,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 16,
+      "kind": "load_multiplier",
+      "name": "s28a",
+      "bus": "28",
+      "bus_index": 32,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 17,
+      "kind": "load_multiplier",
+      "name": "s29a",
+      "bus": "29",
+      "bus_index": 36,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 18,
+      "kind": "load_multiplier",
+      "name": "s30c",
+      "bus": "30",
+      "bus_index": 37,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 19,
+      "kind": "load_multiplier",
+      "name": "s31c",
+      "bus": "31",
+      "bus_index": 34,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 20,
+      "kind": "load_multiplier",
+      "name": "s32c",
+      "bus": "32",
+      "bus_index": 39,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 21,
+      "kind": "load_multiplier",
+      "name": "s33a",
+      "bus": "33",
+      "bus_index": 35,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 22,
+      "kind": "load_multiplier",
+      "name": "s34c",
+      "bus": "34",
+      "bus_index": 16,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 23,
+      "kind": "load_multiplier",
+      "name": "s35a",
+      "bus": "35",
+      "bus_index": 40,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        1,
+        2
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 24,
+      "kind": "load_multiplier",
+      "name": "s37a",
+      "bus": "37",
+      "bus_index": 43,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 25,
+      "kind": "load_multiplier",
+      "name": "s38b",
+      "bus": "38",
+      "bus_index": 44,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 26,
+      "kind": "load_multiplier",
+      "name": "s39b",
+      "bus": "39",
+      "bus_index": 45,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 27,
+      "kind": "load_multiplier",
+      "name": "s41c",
+      "bus": "41",
+      "bus_index": 46,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 28,
+      "kind": "load_multiplier",
+      "name": "s42a",
+      "bus": "42",
+      "bus_index": 47,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 29,
+      "kind": "load_multiplier",
+      "name": "s43b",
+      "bus": "43",
+      "bus_index": 48,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 30,
+      "kind": "load_multiplier",
+      "name": "s45a",
+      "bus": "45",
+      "bus_index": 50,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 31,
+      "kind": "load_multiplier",
+      "name": "s46a",
+      "bus": "46",
+      "bus_index": 52,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 32,
+      "kind": "load_multiplier",
+      "name": "s47",
+      "bus": "47",
+      "bus_index": 51,
+      "kw": 105.0,
+      "kvar": 75.0,
+      "model": 5,
+      "phases": 3,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 33,
+      "kind": "load_multiplier",
+      "name": "s48",
+      "bus": "48",
+      "bus_index": 53,
+      "kw": 210.0,
+      "kvar": 150.0,
+      "model": 2,
+      "phases": 3,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        2,
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 34,
+      "kind": "load_multiplier",
+      "name": "s49a",
+      "bus": "49",
+      "bus_index": 54,
+      "kw": 35.0,
+      "kvar": 25.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 35,
+      "kind": "load_multiplier",
+      "name": "s49b",
+      "bus": "49",
+      "bus_index": 54,
+      "kw": 70.0,
+      "kvar": 50.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 36,
+      "kind": "load_multiplier",
+      "name": "s49c",
+      "bus": "49",
+      "bus_index": 54,
+      "kw": 35.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 37,
+      "kind": "load_multiplier",
+      "name": "s50c",
+      "bus": "50",
+      "bus_index": 55,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 38,
+      "kind": "load_multiplier",
+      "name": "s51a",
+      "bus": "51",
+      "bus_index": 56,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 39,
+      "kind": "load_multiplier",
+      "name": "s52a",
+      "bus": "52",
+      "bus_index": 58,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 40,
+      "kind": "load_multiplier",
+      "name": "s53a",
+      "bus": "53",
+      "bus_index": 59,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 41,
+      "kind": "load_multiplier",
+      "name": "s55a",
+      "bus": "55",
+      "bus_index": 61,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 42,
+      "kind": "load_multiplier",
+      "name": "s56b",
+      "bus": "56",
+      "bus_index": 63,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 43,
+      "kind": "load_multiplier",
+      "name": "s58b",
+      "bus": "58",
+      "bus_index": 64,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 44,
+      "kind": "load_multiplier",
+      "name": "s59b",
+      "bus": "59",
+      "bus_index": 66,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 45,
+      "kind": "load_multiplier",
+      "name": "s60a",
+      "bus": "60",
+      "bus_index": 65,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 46,
+      "kind": "load_multiplier",
+      "name": "s62c",
+      "bus": "62",
+      "bus_index": 68,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 47,
+      "kind": "load_multiplier",
+      "name": "s63a",
+      "bus": "63",
+      "bus_index": 69,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 48,
+      "kind": "load_multiplier",
+      "name": "s64b",
+      "bus": "64",
+      "bus_index": 70,
+      "kw": 75.0,
+      "kvar": 35.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 49,
+      "kind": "load_multiplier",
+      "name": "s65a",
+      "bus": "65",
+      "bus_index": 71,
+      "kw": 35.0,
+      "kvar": 25.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        1,
+        2
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 50,
+      "kind": "load_multiplier",
+      "name": "s65b",
+      "bus": "65",
+      "bus_index": 71,
+      "kw": 35.0,
+      "kvar": 25.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        2,
+        3
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 51,
+      "kind": "load_multiplier",
+      "name": "s65c",
+      "bus": "65",
+      "bus_index": 71,
+      "kw": 70.0,
+      "kvar": 50.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        3,
+        1
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 52,
+      "kind": "load_multiplier",
+      "name": "s66c",
+      "bus": "66",
+      "bus_index": 72,
+      "kw": 75.0,
+      "kvar": 35.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 53,
+      "kind": "load_multiplier",
+      "name": "s68a",
+      "bus": "68",
+      "bus_index": 74,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 54,
+      "kind": "load_multiplier",
+      "name": "s69a",
+      "bus": "69",
+      "bus_index": 77,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 55,
+      "kind": "load_multiplier",
+      "name": "s70a",
+      "bus": "70",
+      "bus_index": 78,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 56,
+      "kind": "load_multiplier",
+      "name": "s71a",
+      "bus": "71",
+      "bus_index": 79,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 57,
+      "kind": "load_multiplier",
+      "name": "s73c",
+      "bus": "73",
+      "bus_index": 80,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 58,
+      "kind": "load_multiplier",
+      "name": "s74c",
+      "bus": "74",
+      "bus_index": 82,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 59,
+      "kind": "load_multiplier",
+      "name": "s75c",
+      "bus": "75",
+      "bus_index": 83,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 60,
+      "kind": "load_multiplier",
+      "name": "s76a",
+      "bus": "76",
+      "bus_index": 81,
+      "kw": 105.0,
+      "kvar": 80.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        1,
+        2
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 61,
+      "kind": "load_multiplier",
+      "name": "s76b",
+      "bus": "76",
+      "bus_index": 81,
+      "kw": 70.0,
+      "kvar": 50.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        2,
+        3
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 62,
+      "kind": "load_multiplier",
+      "name": "s76c",
+      "bus": "76",
+      "bus_index": 81,
+      "kw": 70.0,
+      "kvar": 50.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": true,
+      "terminal_nodes": [
+        3,
+        1
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 63,
+      "kind": "load_multiplier",
+      "name": "s77b",
+      "bus": "77",
+      "bus_index": 84,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 64,
+      "kind": "load_multiplier",
+      "name": "s79a",
+      "bus": "79",
+      "bus_index": 87,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 65,
+      "kind": "load_multiplier",
+      "name": "s80b",
+      "bus": "80",
+      "bus_index": 88,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 66,
+      "kind": "load_multiplier",
+      "name": "s82a",
+      "bus": "82",
+      "bus_index": 90,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 67,
+      "kind": "load_multiplier",
+      "name": "s83c",
+      "bus": "83",
+      "bus_index": 92,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 68,
+      "kind": "load_multiplier",
+      "name": "s84c",
+      "bus": "84",
+      "bus_index": 91,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 69,
+      "kind": "load_multiplier",
+      "name": "s85c",
+      "bus": "85",
+      "bus_index": 93,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 70,
+      "kind": "load_multiplier",
+      "name": "s86b",
+      "bus": "86",
+      "bus_index": 85,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 71,
+      "kind": "load_multiplier",
+      "name": "s87b",
+      "bus": "87",
+      "bus_index": 94,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 72,
+      "kind": "load_multiplier",
+      "name": "s88a",
+      "bus": "88",
+      "bus_index": 95,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 73,
+      "kind": "load_multiplier",
+      "name": "s90b",
+      "bus": "90",
+      "bus_index": 97,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 74,
+      "kind": "load_multiplier",
+      "name": "s92c",
+      "bus": "92",
+      "bus_index": 99,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 75,
+      "kind": "load_multiplier",
+      "name": "s94a",
+      "bus": "94",
+      "bus_index": 101,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 76,
+      "kind": "load_multiplier",
+      "name": "s95b",
+      "bus": "95",
+      "bus_index": 102,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 77,
+      "kind": "load_multiplier",
+      "name": "s96b",
+      "bus": "96",
+      "bus_index": 103,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 78,
+      "kind": "load_multiplier",
+      "name": "s98a",
+      "bus": "98",
+      "bus_index": 104,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 79,
+      "kind": "load_multiplier",
+      "name": "s99b",
+      "bus": "99",
+      "bus_index": 105,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 80,
+      "kind": "load_multiplier",
+      "name": "s100c",
+      "bus": "100",
+      "bus_index": 106,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 81,
+      "kind": "load_multiplier",
+      "name": "s102c",
+      "bus": "102",
+      "bus_index": 110,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 82,
+      "kind": "load_multiplier",
+      "name": "s103c",
+      "bus": "103",
+      "bus_index": 112,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 83,
+      "kind": "load_multiplier",
+      "name": "s104c",
+      "bus": "104",
+      "bus_index": 113,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        3,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 84,
+      "kind": "load_multiplier",
+      "name": "s106b",
+      "bus": "106",
+      "bus_index": 114,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 85,
+      "kind": "load_multiplier",
+      "name": "s107b",
+      "bus": "107",
+      "bus_index": 116,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        2,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 86,
+      "kind": "load_multiplier",
+      "name": "s109a",
+      "bus": "109",
+      "bus_index": 117,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 87,
+      "kind": "load_multiplier",
+      "name": "s111a",
+      "bus": "111",
+      "bus_index": 120,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 88,
+      "kind": "load_multiplier",
+      "name": "s112a",
+      "bus": "112",
+      "bus_index": 121,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 5,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 89,
+      "kind": "load_multiplier",
+      "name": "s113a",
+      "bus": "113",
+      "bus_index": 122,
+      "kw": 40.0,
+      "kvar": 20.0,
+      "model": 2,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 90,
+      "kind": "load_multiplier",
+      "name": "s114a",
+      "bus": "114",
+      "bus_index": 123,
+      "kw": 20.0,
+      "kvar": 10.0,
+      "model": 1,
+      "phases": 1,
+      "is_delta": false,
+      "terminal_nodes": [
+        1,
+        0
+      ],
+      "vminpu": 0.95,
+      "vmaxpu": 1.05
+    },
+    {
+      "parameter_index": 91,
+      "kind": "continuous_transformer_tap",
+      "name": "reg1a",
+      "winding": 2,
+      "nominal_asset_tap": 1.0375,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    },
+    {
+      "parameter_index": 92,
+      "kind": "continuous_transformer_tap",
+      "name": "reg2a",
+      "winding": 2,
+      "nominal_asset_tap": 0.9999999999999999,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    },
+    {
+      "parameter_index": 93,
+      "kind": "continuous_transformer_tap",
+      "name": "reg3a",
+      "winding": 2,
+      "nominal_asset_tap": 1.0124999999999997,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    },
+    {
+      "parameter_index": 94,
+      "kind": "continuous_transformer_tap",
+      "name": "reg4a",
+      "winding": 2,
+      "nominal_asset_tap": 1.0625,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    },
+    {
+      "parameter_index": 95,
+      "kind": "continuous_transformer_tap",
+      "name": "reg3c",
+      "winding": 2,
+      "nominal_asset_tap": 0.9999999999999997,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    },
+    {
+      "parameter_index": 96,
+      "kind": "continuous_transformer_tap",
+      "name": "reg4b",
+      "winding": 2,
+      "nominal_asset_tap": 1.0249999999999997,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    },
+    {
+      "parameter_index": 97,
+      "kind": "continuous_transformer_tap",
+      "name": "reg4c",
+      "winding": 2,
+      "nominal_asset_tap": 1.0374999999999999,
+      "min_tap": 0.9,
+      "max_tap": 1.1,
+      "num_taps": 32
+    }
+  ],
+  "bus_projection": "w_b = mean_{p in energized phases}(V_{b,p}/base_volts_b * exp(j*2*pi*(p-1)/3)); target=(abs(w_b),arg(w_b))",
+  "angle_unit": "radian; phase-A-aligned bus phasor angle, not reference-bus-subtracted",
+  "power_base_mva": 1.0,
+  "scada_semantics": "sum nominal load-setting kW/kvar times load multiplier, divided by 1000; not AC net injections",
+  "scada_third_channel": "dummy zero with mask zero",
+  "nominal_static_asset_only": true,
+  "trajectories_generated": 0,
+  "training_performed": false
+}

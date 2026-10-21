@@ -1,0 +1,17 @@
+{
+  "dataset": "IEEE 123-node test feeder",
+  "format": "OpenDSS",
+  "provenance": {
+    "status": "vendored_snapshot_no_upstream_commit",
+    "description": "Files copied from the OpenDSS snapshot already present in the original research workspace. The exact upstream commit was not recorded, so the vendored bytes and SHA-256 values below are the reproducibility authority.",
+    "reference_url": "https://sourceforge.net/projects/electricdss/"
+  },
+  "files": {
+    "BusCoords.dat": "0b409c0e5d99f365c0140bf38280c1d64932032f1ecb8ef83ae54d4ed0d2716f",
+    "IEEE123Loads.DSS": "fd28f52836205506a1980b52c5a7e12ca585aa626c52a6249502c1c3b2fc2255",
+    "IEEE123Master.dss": "21bfab1a3c956d347dc491436ae839281bf7db4ececc405e10ddeb04d3ab00ec",
+    "IEEE123Regulators.DSS": "cd6ad77980dc018631ce39faab528afce40b0b9a50a6bc1c9ac8049ffb8207d7",
+    "IEEELinecodes.DSS": "4bc8e3a0b24ad7b1cb4321f1c3b6c8458b646dd3a83b3cd11cccc02444624cb2",
+    "LICENSE.opendss.txt": "72e6cb08d3397a969f7763d87ae46bea03f2246a4a996524d0df19285a422560"
+  }
+}

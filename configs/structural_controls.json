@@ -1,0 +1,10 @@
+{
+  "minimum_width": 1,
+  "maximum_width": 320,
+  "tie_break": "smaller_width",
+  "maximum_reference_relative_gap": 0.05,
+  "criterion": "Minimize absolute registered parameter difference from actual noGate architecture before any accuracy access",
+  "expected_selected_width": 154,
+  "expected_reference_parameters": 883466,
+  "expected_selected_parameters": 884298
+}

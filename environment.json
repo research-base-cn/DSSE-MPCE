@@ -1,0 +1,21 @@
+{
+  "python": "3.12.0 | packaged by Anaconda, Inc. | (main, Oct  2 2023, 17:29:18) [GCC 11.2.0]",
+  "platform": "Linux-6.1.0-37-amd64-x86_64-with-glibc2.36",
+  "packages": {
+    "causal_conv1d": "1.6.1",
+    "dss-python": "0.15.7",
+    "einops": "0.8.2",
+    "mamba-ssm": "2.3.1",
+    "matplotlib": "3.10.8",
+    "ninja": "1.13.0",
+    "numpy": "2.4.3",
+    "opendssdirect.py": "0.9.4",
+    "packaging": "25.0",
+    "scipy": "1.17.1",
+    "torch": "2.10.0",
+    "torch-geometric": "2.7.0",
+    "tqdm": "4.67.3"
+  },
+  "torch_cuda": "12.8",
+  "gpu": "NVIDIA L20"
+}

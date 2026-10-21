@@ -1,0 +1,358 @@
+{
+  "corruption_randomization": {
+    "measurement_noise": {
+      "pmu_angle_sigma_rad": 0.0005,
+      "pmu_voltage_sigma_pu": 0.002,
+      "scada_minimum_sigma_pu": 0.001,
+      "scada_relative_sigma": 0.03
+    },
+    "random_missing_and_outlier_sampling": "uniform_without_replacement_over_currently_available_scada_entries",
+    "scenario_seed": "uint32(trajectory_seed + crc32(scenario_name))",
+    "training_seed": "uint32(model_seed*1000003 + epoch*10007 + trajectory_seed*101 + crc32(scenario_name))"
+  },
+  "data": {
+    "cache": {
+      "format": "compressed_npz_shards",
+      "hash_each_shard": true,
+      "normalizer_fit_split": "train_only",
+      "required": true,
+      "trajectories_per_shard": 64
+    },
+    "dss_dir": "dsse/data/ieee123",
+    "pilot_seed_ranges_forbidden_in_formal_study": [
+      {
+        "count": 256,
+        "start": 100000
+      },
+      {
+        "count": 32,
+        "start": 200000
+      },
+      {
+        "count": 32,
+        "start": 300000
+      }
+    ],
+    "pmu_bus_names": [
+      "150",
+      "13",
+      "18",
+      "25",
+      "35",
+      "47",
+      "60",
+      "67",
+      "76",
+      "89",
+      "101",
+      "114"
+    ],
+    "sealed_test_seeds": {
+      "count": 512,
+      "start": 3100000
+    },
+    "sequence_length": 30,
+    "train_seeds": {
+      "count": 2048,
+      "start": 1100000
+    },
+    "validation_seeds": {
+      "count": 256,
+      "start": 2100000
+    }
+  },
+  "estimator_baselines": {
+    "data_calibrated_linear_wls": {
+      "measurement_matrix_fit": "training_split_only",
+      "must_not_be_called_physics_jacobian_wls": true,
+      "role": "transparent_snapshot_estimator"
+    },
+    "forecast_aided_huber": {
+      "initial_state": "training_mean_not_previous_truth",
+      "role": "robust_dynamic_forecast_aided_estimator"
+    },
+    "forecast_aided_kalman": {
+      "initial_state": "training_mean_not_previous_truth",
+      "role": "dynamic_forecast_aided_estimator"
+    },
+    "huber_irls_m_estimator": {
+      "measurement_matrix_fit": "training_split_only",
+      "role": "robust_m_estimator"
+    },
+    "opendss_load_to_powerflow": {
+      "admission": "requires_separate_feasibility_and_input_parity_test",
+      "role": "model_based_context_baseline"
+    },
+    "per_bus_training_mean": {
+      "role": "competence_floor"
+    }
+  },
+  "estimator_hyperparameters": {
+    "huber_delta_standardized": 1.345,
+    "irls_max_iterations": 50,
+    "irls_scaled_step_denominator": "max(1.0_l2_norm_of_current_latent_state)",
+    "irls_scaled_step_tolerance": 1e-06,
+    "kalman_initial_covariance": "training_latent_covariance",
+    "kalman_initial_mean": "zero_latent_equivalent_to_training_state_mean",
+    "latent_dimension": 24,
+    "measurement_model_ridge": 1e-06,
+    "measurement_vector": "all_bus_p_and_q_load_pseudo_measurements_plus_named_pmu_voltage_and_angle",
+    "minimum_variance": 1e-08,
+    "previous_ground_truth_allowed": false,
+    "snapshot_information_ridge": 1e-06,
+    "state_representation": "training_state_pca",
+    "transition_ridge": 1e-06
+  },
+  "evaluation_protocol": {
+    "batch_size": 16,
+    "first_sealed_access_acknowledgment": "I_ACKNOWLEDGE_THIS_IS_THE_FIRST_SEALED_TEST_ACCESS",
+    "num_workers": 0,
+    "raw_metrics_format": "json_lines_one_row_per_method_seed_scenario_trajectory",
+    "scenario_order": [
+      "normal",
+      "outliers_15pct",
+      "outliers_30pct",
+      "missing_40pct",
+      "missing_60pct",
+      "regional_missing_40pct",
+      "sensitivity_targeted_outliers_15pct",
+      "pmu_dropout_50pct"
+    ]
+  },
+  "method_contract": {
+    "encoder": "nodewise",
+    "gate": "unconstrained_affine_attention_entropy",
+    "gate_initialization": {
+      "b": 0.0,
+      "initial_value": 0.5,
+      "w": 0.0
+    },
+    "gate_interpretation": "learned_attention_dispersion_calibration_not_corruption_detector",
+    "new_method_modules_allowed": false,
+    "proposed_variant": "gat_mamba_full_gate",
+    "readout": "graph",
+    "spatial": "GATv2",
+    "temporal": "bidirectional_mamba_full_window_summary",
+    "test_set_model_selection_allowed": false
+  },
+  "metrics": {
+    "primary": [
+      "voltage_rmse",
+      "angle_circular_rmse"
+    ],
+    "secondary": [
+      "voltage_mae",
+      "angle_circular_mae",
+      "per_bus_absolute_error_p95",
+      "voltage_error_over_0_01pu_rate",
+      "angle_error_over_0_01rad_rate"
+    ],
+    "solver": [
+      "convergence_rate",
+      "failure_reason",
+      "iteration_count"
+    ],
+    "systems": [
+      "parameter_count",
+      "training_wall_time",
+      "peak_gpu_memory",
+      "batch1_inference_latency",
+      "throughput"
+    ]
+  },
+  "model": {
+    "d_model": 160,
+    "d_state": 32,
+    "dropout": 0.1,
+    "gate_b_init": 0.0,
+    "gate_w_init": 0.0,
+    "mamba_clamp": 0.0,
+    "n_gnn_layers": 3,
+    "n_temporal_layers": 1,
+    "readout_mode": "graph",
+    "require_real_mamba": true,
+    "scada_features": 3,
+    "sequence_mlp": {
+      "sequence_hidden_dimension": 160,
+      "step_hidden_dimension": 160,
+      "uses_graph": false,
+      "uses_recurrence": false
+    },
+    "snapshot_gnn": {
+      "entropy_gate": false,
+      "spatial_operator": "GATv2",
+      "uses_last_snapshot_only": true
+    },
+    "validation_selection_score": "voltage_rmse_plus_angle_circular_rmse"
+  },
+  "neural_variants": {
+    "gat_lstm": {
+      "role": "temporal_backbone_ablation"
+    },
+    "gat_mamba_full_gate": {
+      "role": "proposed_method"
+    },
+    "gat_mamba_no_gate": {
+      "role": "gate_ablation"
+    },
+    "gcn_mamba": {
+      "role": "spatial_attention_ablation"
+    },
+    "gnn_se_snapshot": {
+      "role": "non_temporal_graph_baseline"
+    },
+    "sequence_mlp": {
+      "role": "non_graph_sequence_baseline"
+    }
+  },
+  "primary_scenarios": {
+    "missing_40pct": {
+      "rate": 0.4,
+      "type": "missing"
+    },
+    "missing_60pct": {
+      "rate": 0.6,
+      "type": "missing"
+    },
+    "normal": {
+      "type": "normal"
+    },
+    "outliers_15pct": {
+      "rate": 0.15,
+      "sigma_multiplier": 10.0,
+      "type": "outliers"
+    },
+    "outliers_30pct": {
+      "rate": 0.3,
+      "sigma_multiplier": 10.0,
+      "type": "outliers"
+    }
+  },
+  "reporting": {
+    "checkpoint_hashes_required": true,
+    "environment_manifest_required": true,
+    "figures_and_tables_generated_only_from_raw_results": true,
+    "pilot_results_for_manuscript_tables": false,
+    "raw_per_trajectory_metrics_required": true,
+    "resolved_config_required": true
+  },
+  "revision_reason": "correct_full_window_bidirectional_endpoint_selection_before_any_sealed_test_access",
+  "schema_version": 2,
+  "sealed_test_policy": {
+    "all_post_test_changes_require_new_study_id_and_new_test_seeds": true,
+    "do_not_evaluate_until_all_code_and_hyperparameters_are_committed": true,
+    "generate_and_hash_before_model_training": true,
+    "no_hyperparameter_change_after_first_test_read": true
+  },
+  "statistics": {
+    "comparison_families": {
+      "comparators": [
+        "gat_mamba_no_gate",
+        "gcn_mamba",
+        "gat_lstm",
+        "gnn_se_snapshot",
+        "sequence_mlp",
+        "per_bus_training_mean",
+        "data_calibrated_linear_wls",
+        "huber_irls_m_estimator",
+        "forecast_aided_kalman",
+        "forecast_aided_huber"
+      ],
+      "fixed_estimator_comparisons": "conditional_on_one_training_calibrated_estimator_fit_and_five_proposed_model_seeds",
+      "holm_scope": "eight_scenarios_within_each_comparator_and_each_primary_metric",
+      "proposed_variant": "gat_mamba_full_gate"
+    },
+    "confidence_level": 0.95,
+    "equivalence_test_requires_predeclared_margin": true,
+    "exact_model_seed_test": "two_sided_exhaustive_paired_sign_flip",
+    "gate_claim_rule": {
+      "minimum_supporting_model_seeds": 4,
+      "require_both_primary_metrics": true,
+      "require_practical_threshold": true,
+      "required_degraded_scenarios": [
+        "outliers_30pct",
+        "missing_60pct"
+      ]
+    },
+    "hierarchical_bootstrap_draws": 10000,
+    "hierarchical_bootstrap_seed": 20260826,
+    "model_training_run_is_primary_replication_unit": true,
+    "multiple_comparison_control": "holm_within_each_primary_model_comparison_and_metric_family",
+    "paired_by_model_seed_and_test_trajectory": true,
+    "practical_improvement_thresholds": {
+      "angle_rmse_absolute_rad": 0.0001,
+      "relative_percent": 2.0,
+      "voltage_rmse_absolute_pu": 0.0001
+    },
+    "report_effect_sizes_and_intervals": true,
+    "report_exact_p_values": true,
+    "trajectory_is_not_model_replication": true
+  },
+  "status": "PREDECLARED_NOT_YET_RUN",
+  "study_id": "r1-formal-v2-sealed-test",
+  "systems_measurement_protocol": {
+    "classical_latency_measurement_trajectories": 100,
+    "gpu_synchronize_before_and_after_timing": true,
+    "latency_excludes_data_loading_and_corruption": true,
+    "neural_batch1_latency_measurement_iterations": 100,
+    "neural_batch1_latency_warmup_iterations": 20,
+    "throughput_includes_model_forward_only": true
+  },
+  "targeted_scenarios": {
+    "pmu_dropout_50pct": {
+      "pmu_bus_names": [
+        "150",
+        "18",
+        "35",
+        "60",
+        "76",
+        "101"
+      ],
+      "rate": 0.5,
+      "type": "pmu_missing"
+    },
+    "regional_missing_40pct": {
+      "label_as_formal_critical_measurement_set": false,
+      "rate": 0.4,
+      "root_bus_name": "150",
+      "selector": "largest_downstream_subtree_nearest_requested_rate_with_bus_name_tiebreak",
+      "tree_construction": "breadth_first_search_with_lexicographically_sorted_neighbors",
+      "type": "regional_missing"
+    },
+    "sensitivity_targeted_outliers_15pct": {
+      "bus_count_rule": "nearest_integer_number_of_buses_to_requested_rate_with_bus_name_tiebreak",
+      "label_as_formal_critical_measurement_set": false,
+      "rate": 0.15,
+      "relative_load_step": 0.01,
+      "selector": "nominal_feeder_finite_difference_voltage_sensitivity_training_independent",
+      "sensitivity_definition": "mean_abs_voltage_change_per_relative_load_step",
+      "sigma_multiplier": 10.0,
+      "type": "sensitivity_targeted_outliers"
+    }
+  },
+  "training": {
+    "augmentation_scenarios": [
+      "normal",
+      "missing_40pct",
+      "outliers_15pct"
+    ],
+    "batch_size": 16,
+    "early_stopping_patience": 30,
+    "epochs": 200,
+    "gradient_clip": 1.0,
+    "learning_rate": 0.0005,
+    "loss": "mse",
+    "maximum_wall_time_seconds_per_seed_job": 7200,
+    "model_seeds": [
+      131,
+      197,
+      269,
+      349,
+      443
+    ],
+    "no_automatic_retry": true,
+    "no_seed_replacement": true,
+    "scheduler": "cosine_annealing",
+    "weight_decay": 1e-05
+  }
+}

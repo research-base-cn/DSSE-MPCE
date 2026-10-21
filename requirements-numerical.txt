@@ -1,0 +1,8 @@
+numpy==2.4.3
+scipy==1.17.1
+opendssdirect.py==0.9.4
+torch==2.10.0
+torch-geometric==2.7.0
+mamba-ssm==2.3.1
+causal_conv1d==1.6.1
+einops==0.8.2

@@ -1,0 +1,318 @@
+{
+  "schema_version": 1,
+  "status": "EXPORTED_FROM_ALL_FINAL_S6_MASKS",
+  "pmu_bus_names": [
+    "150",
+    "13",
+    "18",
+    "25",
+    "35",
+    "47",
+    "60",
+    "67",
+    "76",
+    "89",
+    "101",
+    "114"
+  ],
+  "heldout_layouts": [
+    {
+      "id": "L0",
+      "missing_slot_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        9
+      ],
+      "missing_bus_names": [
+        "150",
+        "13",
+        "35",
+        "47",
+        "60",
+        "89"
+      ],
+      "availability": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "source_case": "S6_L0",
+      "case_sha256": "d77b4eab6c8e4f51137bb2363627b8939ecc5daa044d0b51dc44285998497413",
+      "sensor_sha256": "f83c1354805f1c67fb177a8f202bf1f2a77d6fd6cdf710de76ba05b70de14057"
+    },
+    {
+      "id": "L1",
+      "missing_slot_indices": [
+        2,
+        3,
+        7,
+        8,
+        10,
+        11
+      ],
+      "missing_bus_names": [
+        "18",
+        "25",
+        "67",
+        "76",
+        "101",
+        "114"
+      ],
+      "availability": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "source_case": "S6_L1",
+      "case_sha256": "378e28b57370164bacca1b555b3d3bc319cd28d467b93938aec5c8ad0d9c67d9",
+      "sensor_sha256": "911a12b9e3a99279a29788eeb7eda9fb212057b7e65a8c05aa4c1c3ab01da9a7"
+    },
+    {
+      "id": "L2",
+      "missing_slot_indices": [
+        0,
+        2,
+        7,
+        8,
+        10,
+        11
+      ],
+      "missing_bus_names": [
+        "150",
+        "18",
+        "67",
+        "76",
+        "101",
+        "114"
+      ],
+      "availability": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "source_case": "S6_L2",
+      "case_sha256": "22fb9c0818cb6cc07d7c5cea7acbaeadc361fe81f875763f23bff0f5bb1f83b9",
+      "sensor_sha256": "aa2a2567326d2ce6007378aa826d5502e27744d00b8f3ebffd1c5627ac0700d3"
+    },
+    {
+      "id": "L3",
+      "missing_slot_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        9
+      ],
+      "missing_bus_names": [
+        "13",
+        "25",
+        "35",
+        "47",
+        "60",
+        "89"
+      ],
+      "availability": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ],
+      "source_case": "S6_L3",
+      "case_sha256": "737d6c02711bd79a8c942e6bb793118c3dd555575cb19f794494fde7b1a31c6f",
+      "sensor_sha256": "ed6fbf3f60a76c61daa73c20f9b0d04ecc3c028167c148b9184090413a078d9d"
+    },
+    {
+      "id": "L4",
+      "missing_slot_indices": [
+        0,
+        1,
+        5,
+        7,
+        9,
+        11
+      ],
+      "missing_bus_names": [
+        "150",
+        "13",
+        "47",
+        "67",
+        "89",
+        "114"
+      ],
+      "availability": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "source_case": "S6_L4",
+      "case_sha256": "8c23a0ddfaa28abf7c2abc996f8bd1a94d6ac051b9b7b2eb8a63f07d6e8ce752",
+      "sensor_sha256": "9598b22e6eaabd6dfffd55f5fd0597b3c64080e58cdabf8258b447c8be497fa8"
+    },
+    {
+      "id": "L5",
+      "missing_slot_indices": [
+        2,
+        3,
+        4,
+        6,
+        8,
+        10
+      ],
+      "missing_bus_names": [
+        "18",
+        "25",
+        "35",
+        "60",
+        "76",
+        "101"
+      ],
+      "availability": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "source_case": "S6_L5",
+      "case_sha256": "eac004dcd3c9a16455db3f97024e7da8ffce6aeaf62e66967089ff67207c0c46",
+      "sensor_sha256": "eb1dad4525238e2b637f75d85fd9c5d038bae6c831478326203ef407c1132292"
+    },
+    {
+      "id": "L6",
+      "missing_slot_indices": [
+        0,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "missing_bus_names": [
+        "150",
+        "25",
+        "35",
+        "67",
+        "76",
+        "89"
+      ],
+      "availability": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "source_case": "S6_L6",
+      "case_sha256": "342b544bb99eed6119aae03c8b7d5cd88931bfe287742be4d1f87b4bf7f5406d",
+      "sensor_sha256": "d1bf2291edce86548cc60bffdfe5a0405bfc71b595722345ae2f71812634ff89"
+    },
+    {
+      "id": "L7",
+      "missing_slot_indices": [
+        1,
+        2,
+        5,
+        6,
+        10,
+        11
+      ],
+      "missing_bus_names": [
+        "13",
+        "18",
+        "47",
+        "60",
+        "101",
+        "114"
+      ],
+      "availability": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "source_case": "S6_L7",
+      "case_sha256": "0856bef89a73a21ed9920b0ceb3c3cae99f4f02a2ed53b9e35b28c6382b956bd",
+      "sensor_sha256": "af39a6c086276a1e111d9b4f2b56694813f190ab8da1f3a561052a5ea90ebcae"
+    }
+  ],
+  "source_bundle_sha256": "df7cf845c82dca7f600d2101e4f0cea8629a33f3a8c3850c5fc0d917928186fb",
+  "full_grid_aggregation": "8 layout-specific trajectory RMSEs averaged within the same trajectory before case means",
+  "physical128_assignment": "trajectory_index modulo 8, one layout per trajectory, 16 indices per layout",
+  "case_mask_shape": [
+    512,
+    30,
+    12,
+    2
+  ],
+  "all_512_trajectories_and_30_frames_checked": true
+}

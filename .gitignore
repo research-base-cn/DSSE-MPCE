@@ -1,0 +1,11 @@
+/assets/
+/data/
+/results/
+/outputs/
+**/__pycache__/
+*.py[cod]
+*.zip
+*.tar
+*.tar.gz
+.venv/
+.DS_Store

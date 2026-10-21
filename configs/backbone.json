@@ -1,0 +1,51 @@
+{
+  "study_id": "dsse-backbone",
+  "initialization_policy": "respect_no_reinit_bias_preserve_original_xavier_rng",
+  "model_seeds": [
+    131,
+    197,
+    269,
+    349,
+    443
+  ],
+  "epochs": 200,
+  "batch_size": 16,
+  "learning_rate": 0.0005,
+  "weight_decay": 1e-05,
+  "gradient_clip": 1.0,
+  "early_stopping_patience": 30,
+  "scheduler_horizon_epochs": 200,
+  "sequence_length": 30,
+  "train_trajectory_limit": null,
+  "validation_trajectory_limit": null,
+  "augmentation_scenarios": [
+    "normal",
+    "missing_40pct",
+    "outliers_15pct"
+  ],
+  "validation_scenarios": [
+    "normal"
+  ],
+  "checkpoint_selection": "normal_voltage_rmse_plus_angle_circular_rmse",
+  "paired_arms": {
+    "corrected_gate": {
+      "variant": "gat_mamba_full_gate",
+      "entropy_source": "pre_message_dropout",
+      "supervision": "endpoint_only",
+      "loss_scaling": "raw_units"
+    },
+    "no_gate": {
+      "variant": "gat_mamba_no_gate",
+      "entropy_source": "none",
+      "supervision": "endpoint_only",
+      "loss_scaling": "raw_units"
+    }
+  },
+  "final_validation_report_scenarios": [
+    "normal",
+    "outliers_15pct",
+    "missing_40pct",
+    "outliers_30pct",
+    "missing_60pct"
+  ]
+}

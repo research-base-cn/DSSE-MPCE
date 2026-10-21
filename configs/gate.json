@@ -1,0 +1,49 @@
+{
+  "training": {
+    "augmentation_scenarios": [
+      "normal",
+      "missing_40pct",
+      "outliers_15pct",
+      "regional_missing_40pct",
+      "pmu_dropout_50pct"
+    ],
+    "batch_size": 16,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "early_stopping": false,
+    "epochs": 30,
+    "eps": 1e-08,
+    "extra_prefix_labels": false,
+    "gradient_clip": 1.0,
+    "learning_rate": 0.003,
+    "loss": "voltage_MSE/sV^2+angle_MSE/sA^2; s are same warmstart residual RMS on normal train64, floor1e-6",
+    "minimum_learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "paired_inputs_order_required": true,
+    "scheduler": "cosine_30epochs",
+    "train_trajectories": 2048,
+    "validation_every_epochs": 5,
+    "validation_trajectories": 128,
+    "warmstart": "same-seed original noGate selected200epoch; new optimizer",
+    "weight_decay": 0.0
+  },
+  "scenarios": [
+    "normal",
+    "outliers_15pct",
+    "outliers_30pct",
+    "missing_40pct",
+    "missing_60pct",
+    "regional_missing_40pct",
+    "sensitivity_targeted_outliers_15pct",
+    "pmu_dropout_50pct"
+  ],
+  "model_seeds": [
+    131,
+    197,
+    269,
+    349,
+    443
+  ]
+}
