@@ -14,9 +14,9 @@ python -m pip install -r requirements-data.txt
 
 Data generation requires NumPy, OpenDSSDirect.py, and PyTorch; a CPU build of PyTorch is sufficient. Neural training additionally requires PyTorch Geometric, Mamba, and a compatible CUDA installation. Numerical dependencies and the recorded experimental environment are listed in [requirements-numerical.txt](requirements-numerical.txt) and [environment.json](environment.json).
 
-## Data and model weights
+## Data
 
-The experimental datasets, saved predictions, and trained model weights are not distributed. The included OpenDSS feeder files and simulation code can be used to generate new datasets locally.
+The included OpenDSS feeder files and simulation code can be used to generate new datasets locally.
 
 ## Generate data from the IEEE 123-node feeder
 
@@ -32,16 +32,13 @@ python -m dsse.datasets --output data/training --verify-only
 
 In PowerShell, set the import path with `$env:PYTHONPATH = "$PWD/src"` instead of the `export` line. Use a clean Git worktree and an empty output directory for the full run.
 
-The configuration generates 2,048 training, 256 validation, and 512 `sealed_test` trajectories, each with 30 time steps. This test split uses the seeds in the configuration and is distinct from the paper's final confirmation split. The generator saves compressed NumPy shards, training-only normalization statistics, topology, bus/PMU mappings, seeds, and checksums. For a short execution check, use a separate output directory and append `--smoke-limit-per-split 1`; these reduced outputs are not experimental results.
-
-Measurement noise, missingness, and outliers are applied after clean trajectory generation. Their implementations are in [simulation/case_definitions.py](simulation/case_definitions.py), [simulation/corruption_models.py](simulation/corruption_models.py), and [src/dsse/runtime.py](src/dsse/runtime.py). Keep training, validation, and test trajectory seeds disjoint, and fit normalization and calibration only on the training split.
+The configuration generates 2,048 training, 256 validation, and 512 `sealed_test` trajectories, each with 30 time steps. The generator saves compressed NumPy shards, training-only normalization statistics, topology, bus/PMU mappings, seeds, and checksums. Measurement noise, missingness, and outliers are applied after clean trajectory generation. Their implementations are in [simulation/case_definitions.py](simulation/case_definitions.py), [simulation/corruption_models.py](simulation/corruption_models.py), and [src/dsse/runtime.py](src/dsse/runtime.py). 
 
 ## Model and training
 
 The network and gate implementations are in `src/graphmamba/` and `src/gating/`. Optimization settings are in `configs/backbone.json` and `configs/gate.json`; [training/README.md](training/README.md) describes the training stages and ablations.
 
-The study-specific `training/` and `neural/` entry points require local datasets, calibration files, and a model catalog pointing to locally available parameters. `metadata/models.json` records the study's catalog structure and file identities; its referenced numerical assets are not included. Generating the clean trajectory cache alone does not supply those fitted artifacts.
-
+The study-specific `training/` and `neural/` entry points require local datasets, calibration files, and a model catalog pointing to locally available parameters. `metadata/models.json` records the study's catalog structure and file identities. Its referenced numerical assets are not included. 
 ## Repository structure
 
 | Directory | Contents |
